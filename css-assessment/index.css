@@ -66,9 +66,10 @@
     display: flex;
     align-items: center;
     padding: 3rem 4rem;
+    justify-content: space-between
 }
 .feature-heading {
-    font-size: 2.5rem;
+    font-size: 3.3rem;
     font-weight: 600;
     padding: 1rem;
 }
@@ -76,18 +77,21 @@
     font-weight: 300;
     padding: 0.3rem 1rem;
     line-height: 1.5rem;
+    font-size: 1.2rem;
+    max-width: 30rem;
 }
 .feature-button {
     font-weight: 600;
-    margin: 0.5rem 1rem;
-    padding: 0.6rem 1.6rem;
+    margin: 0.8rem 1rem;
+    padding: 0.8rem 1.6rem;
     border-radius: 2rem;
     display: inline-block;
 }
 
 .feature-content-illustration > img{
     /* height: 0.1rem; */
-    max-height: 20rem;
-    max-width: 20rem;
+    max-height: 30rem;
+    max-width: 30rem;
+    padding: 0rem 0rem 0rem 4rem;
     display: inline-block;
 }
