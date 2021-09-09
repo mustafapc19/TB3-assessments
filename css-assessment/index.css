@@ -56,3 +56,38 @@
     border-radius: 2rem;
     height: 1rem;
 }
+
+
+
+
+
+
+.feature-content {
+    display: flex;
+    align-items: center;
+    padding: 3rem 4rem;
+}
+.feature-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+.feature-subheading {
+    font-weight: 300;
+    padding: 0.3rem 1rem;
+    line-height: 1.5rem;
+}
+.feature-button {
+    font-weight: 600;
+    margin: 0.5rem 1rem;
+    padding: 0.6rem 1.6rem;
+    border-radius: 2rem;
+    display: inline-block;
+}
+
+.feature-content-illustration > img{
+    /* height: 0.1rem; */
+    max-height: 20rem;
+    max-width: 20rem;
+    display: inline-block;
+}
