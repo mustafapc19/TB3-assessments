@@ -64,7 +64,7 @@
 
 .feature-content {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     padding: 3rem 4rem;
     justify-content: space-between
