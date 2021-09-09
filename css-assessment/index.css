@@ -165,7 +165,19 @@
 
 .footer {
     display: flex;
-    margin: 1rem 3rem 1rem 3rem;
+        flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem 3rem 1rem 3rem; */
 }
-.about-us{
+.about-us-heading {
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 2rem 6rem 1rem;
+}
+.about-us-content {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0rem 6rem 2rem;
+    width: 30rem;
 }
