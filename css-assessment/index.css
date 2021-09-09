@@ -64,6 +64,7 @@
 
 .feature-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 3rem 4rem;
     justify-content: space-between
@@ -99,6 +100,7 @@
 
 .email-booking {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 3rem 1rem;
@@ -114,7 +116,49 @@
 }
 .email-booking-button {
     padding: 1rem;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
     border-radius: 0.8rem;
     font-weight: 600;
+}
+
+.usp {
+    margin: 8rem 1rem 1rem 1rem;
+}
+.usp-heading {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+.usp-subheading {
+    text-align: center;
+    padding: 1rem 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.usp-reasons {
+    display: flex;
+        justify-content: center;
+    align-items: center;
+    margin: 1rem 0.2rem 0 0.2rem;
+    flex-wrap: wrap;
+}
+.usp-reason{
+    border-radius: 0.7rem;
+    margin: 0.5rem 1.2rem 0.5rem 1.2rem;
+    padding: 2rem 2rem 4rem 2rem;
+}
+.usp-reason-num{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.usp-reason-heading{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.usp-reason-subheading{
+    font-weight: 300;
+    font-size: 1.1rem;
+    max-width: 20rem;
 }
